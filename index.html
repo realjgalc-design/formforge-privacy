@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FormForge Privacy Policy</title>
+<style>
+  :root { --bg:#fff; --fg:#1d1d1f; --muted:#5f6368; --line:#e3e3e3; --accent:#3b5bdb; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#121212; --fg:#e8e8e8; --muted:#a0a0a0; --line:#2c2c2c; --accent:#8da2fb; } }
+  body { background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; margin:0; }
+  main { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:1.9rem; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin:32px 0 8px; padding-top:16px; border-top:1px solid var(--line); }
+  .meta { color:var(--muted); margin:0 0 24px; }
+  a { color:var(--accent); }
+  table { border-collapse:collapse; width:100%; font-size:.95rem; }
+  th, td { text-align:left; vertical-align:top; padding:8px; border-bottom:1px solid var(--line); }
+</style>
+</head>
+<body>
+<main>
+<h1>FormForge Privacy Policy</h1>
+<p class="meta">App: FormForge (com.formforge.app) · Effective: 21 November 2026</p>
+
+<p>FormForge is an Android app for designing app screens and having an AI assistant (Claude, made by Anthropic) write the code behind them. This policy explains what data the app handles, where it goes, and what control you have over it.</p>
+
+<h2>Summary</h2>
+<ul>
+  <li>FormForge has no accounts, no analytics, no advertising and no tracking. It has no server of its own.</li>
+  <li>Your projects and your Anthropic API key are stored only on your device.</li>
+  <li>When you use the AI assistant or export to Kotlin, your request and your project design are sent straight from your device to Anthropic's API, using your own API key.</li>
+  <li>We do not sell, rent or share your data with anyone else.</li>
+</ul>
+
+<h2>Data the app handles</h2>
+<table>
+  <tr><th>Data</th><th>Where it is kept</th><th>Shared with</th></tr>
+  <tr><td>Anthropic API key you enter in Settings</td><td>Private app storage on your device. It is left out of Android cloud backups.</td><td>Sent only to Anthropic, to authenticate your requests</td></tr>
+  <tr><td>Projects (screens, components, handler code)</td><td>Private app storage on your device</td><td>Sent to Anthropic only when you use the assistant or Kotlin export</td></tr>
+  <tr><td>Messages you type to the assistant, and its replies</td><td>On your device, as part of the project</td><td>Anthropic, to generate replies</td></tr>
+  <tr><td>Data your own designed apps save while running in FormForge</td><td>Private app storage on your device</td><td>Not shared</td></tr>
+  <tr><td>Exported Kotlin projects</td><td>A location you choose with the Android file picker</td><td>Not shared, unless you share the files yourself</td></tr>
+</table>
+<p>FormForge does not collect your name, email address, contacts, location, photos, device identifiers or usage statistics. The only permission it requests is Internet access, which it needs to reach Anthropic's API.</p>
+
+<h2>Third-party service: Anthropic</h2>
+<p>The AI features use the Anthropic API (api.anthropic.com). The connection is encrypted with HTTPS. Requests are made under your own Anthropic account, so Anthropic handles that data under its own terms and privacy policy, which you agreed to when you created your API key:</p>
+<ul>
+  <li><a href="https://www.anthropic.com/legal/privacy">Anthropic Privacy Policy</a></li>
+  <li><a href="https://www.anthropic.com/legal/commercial-terms">Anthropic Commercial Terms</a></li>
+</ul>
+<p>Do not put passwords, personal information about other people or other sensitive data in your prompts or project designs. They are sent to Anthropic when you use the assistant.</p>
+
+<h2>Data retention and deletion</h2>
+<p>Everything FormForge stores stays on your device until you delete it. You can delete a project inside the app, clear your API key in Settings, or remove all app data by uninstalling FormForge or using Android Settings › Apps › FormForge › Storage › Clear storage. We hold no copy of your data, so there is nothing for us to delete on our side. Anthropic keeps API data according to its own policy linked above.</p>
+
+<h2>Security</h2>
+<p>Data is kept in Android's private app storage, which other apps cannot read. Network traffic to Anthropic is encrypted in transit. No method of storage or transmission is perfectly secure, so keep your device locked and your API key private. You can revoke a key at any time in the Anthropic Console.</p>
+
+<h2>Children</h2>
+<p>FormForge is a developer tool and is not directed at children under 13. We do not knowingly collect any personal information from children.</p>
+
+<h2>Changes to this policy</h2>
+<p>If the way FormForge handles data changes, we will update this page and its effective date before the change takes effect.</p>
+
+<h2>Contact</h2>
+<p>For questions about this policy, email <a href="mailto:realjgalc@gmail.com">realjgalc@gmail.com</a>.</p>
+</main>
+</body>
+</html>
